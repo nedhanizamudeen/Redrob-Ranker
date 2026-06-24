@@ -9,6 +9,7 @@ Approach: Multi-dimensional scoring that mirrors how a great recruiter reads pro
 
 Run:
     python rank.py --candidates ./candidates.jsonl --out ./submission.csv
+    # Runs in ~45 seconds on CPU, no GPU or network required
 """
 
 import json
