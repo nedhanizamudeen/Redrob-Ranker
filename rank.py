@@ -93,7 +93,7 @@ CV_SPEECH_ONLY = [
 ]
 
 # Title-chasing pattern (many short stints purely for title bump)
-CONSULTING_DOMAINS = ["IT Services", "Consulting", "Staffing", "Outsourcing"]
+CONSULTING_DOMAINS = ["IT Services", "Consulting", "Staffing", "Outsourcing", "BPO"]
 
 TARGET_LOCATIONS = [
     "pune", "noida", "delhi", "gurugram", "gurgaon", "hyderabad",
