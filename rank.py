@@ -117,7 +117,7 @@ def detect_honeypot(candidate: dict) -> tuple[bool, str]:
     skills = candidate.get("skills", [])
     yoe = candidate["profile"].get("years_of_experience", 0)
 
-    # Check timeline consistency: total career months vs. years_of_experience
+    # Check 1: Total career months vs stated YoE — fabricated profiles fail this
     total_months = sum(r.get("duration_months", 0) for r in career)
     if total_months > 0:
         total_years_from_history = total_months / 12.0
